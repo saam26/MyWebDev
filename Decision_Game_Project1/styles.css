@@ -1,0 +1,40 @@
+body
+{
+    background-color:orange;
+}
+
+
+h1
+{
+    margin:30px;
+
+    font-family: 'Lumanosimo', cursive;
+    font-size: 450%;
+    /* color :whitesmoke; */
+    text-align: center;
+    text-shadow: 5px 0 #FCE22A;
+}
+
+.container
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.img
+{
+    width: 80%;
+}
+
+.dice
+{
+    color: azure;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+    display: inline-block;
+}
