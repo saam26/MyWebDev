@@ -1,0 +1,105 @@
+body
+{
+    background-color: #0D1282;
+}
+
+
+.container
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.drums
+{
+    text-align: center;
+    display: inline-flexbox;
+    font-size: 100px;
+}
+
+.w
+{
+    background-image: url("/Users/samsidsuresh/Web development/Drum Kit Starting Files/images/crash.png");
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 10px;
+    
+}
+
+.a
+{
+    background-image: url("/Users/samsidsuresh/Web development/Drum Kit Starting Files/images/kick.png");
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 10px;
+}
+
+.b
+{
+    background-image: url("/Users/samsidsuresh/Web development/Drum Kit Starting Files/images/snare.png");
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 10px;
+}
+
+.c
+{
+    background-image: url("/Users/samsidsuresh/Web development/Drum Kit Starting Files/images/tom1.png");
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 10px;
+}
+
+.d
+{
+    background-image: url("/Users/samsidsuresh/Web development/Drum Kit Starting Files/images/tom3.png");
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 10px;
+}
+
+.e
+{
+    background-image: url("/Users/samsidsuresh/Web development/Drum Kit Starting Files/images/tom3.png");
+    font-size: 100px;
+    height: 150px;
+    width: 150px;
+    padding: 0px;
+    border-radius: 50%;
+    border-color:white;
+    border-width: 10px;
+} 
+
+
+.drums
+{
+    padding: 100px;
+}
+
+.h1
+{
+    font-size: 200px;
+}
