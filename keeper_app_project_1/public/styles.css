@@ -12,10 +12,7 @@ body {
 }
 
 header {
-  /* background-color: #f53913; */
   background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
-  /* background-image: radial-gradient(circle, #3a6700 0%, #ffdd00 100%); */
-  /* background-image: linear-gradient(90deg, #FFF57B 0%, #FFE469 15%, #FECC51 35%, #FCB033 45%, #FA961B 55%, #FA8607 80%); */
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -36,10 +33,8 @@ footer {
 }
 
 footer p {
-  /* color: #ccc; */
-  background-color: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  color: #ccc;
 }
-
 .note {
   background: #fff;
   border-radius: 7px;
@@ -48,17 +43,60 @@ footer p {
   width: 240px;
   margin: 16px;
   float: left;
-  list-style: none;
 }
-
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
 }
-
 .note p {
   font-size: 1.1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
 }

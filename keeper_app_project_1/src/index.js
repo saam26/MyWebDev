@@ -4,17 +4,8 @@ import App from "./components/App";
 
 ReactDOM.render(<App />,document.getElementById("root"));
 
-// const date = new Date();
-// const currentTime = date.getHours();
 
-// const customStyle = {
-//     background-image: linear-gradient(90deg, #FFF57B 0%, #FFE469 15%, #FECC51 35%, #FCB033 45%, #FA961B 55%, #FA8607 80%);
-// }
 
-// if (currentTime<12)
-// {
-
-// }
 
 //1. Create a new React app.
 //2. Create a App.jsx component.
